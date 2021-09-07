@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left > img {
+  object-fit: contain;
+  height: 60px;
+  margin-left: -5px;
+}
+
+.header-middle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header-middle > .MuiSvgIcon-root {
+  color: grey;
+}
+
+.header-middle > input {
+  border: none;
+  width: 100%;
+  outline: 0;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.header-right > .avatar {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
